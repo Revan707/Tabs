@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkseagreen;
+}
+.container{
+    width: 300px;
+    height: max-content;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 50px;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.header{
+    margin-top: 30px;
+}
+.male{
+    display: none;
+}
+.female{
+    display: none;
+}
+.myBtns{
+    background-color: rgb(230, 225, 225);
+    width: 240px;
+    height: 30px;
+    border-radius: 20px;
+}
+.myBtns button{
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    border-color: rgb(230, 225, 225);
+    border-bottom: 2px;
+}
+.myBtns button:hover{
+    background-color: darkseagreen;
+    color: white;
+}
+.myContacts{
+    display: flex;
+    gap: 100px;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.myContacts img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+.left > div{
+    margin-top: 20px;
+}
+.line{
+    background-color: rgb(230, 225, 225);
+    height: 1px;
+    width: 100%;
+    margin-top: 5px;
+}
+.right{
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+.right > img{
+    width: 5px;
+    height: 5px;
+}
