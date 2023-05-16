@@ -30,18 +30,16 @@ body{
 .female{
     display: none;
 }
-.myBtns{
-    background-color: rgb(230, 225, 225);
-    width: 240px;
-    height: 30px;
-    border-radius: 20px;
-}
 .myBtns button{
-    border-radius: 20px;
     width: 70px;
     height: 30px;
-    border-color: rgb(230, 225, 225);
-    border-bottom: 2px;
+    border: none;
+}
+.myBtns :first-child{
+    border-radius: 20px;
+}
+.myBtns :last-child{
+    border-radius: 20px;
 }
 .myBtns button:hover{
     background-color: darkseagreen;

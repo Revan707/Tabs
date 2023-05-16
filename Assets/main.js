@@ -5,7 +5,7 @@ const female=document.querySelector(".female")
 const myBoth=document.querySelector(".myBoth")
 const both=document.querySelector(".both")
 
-state="block"
+let state="block"
 myMale.addEventListener("click",()=>{
     male.style.display=state
     state=state=="block"?"none":"block"
